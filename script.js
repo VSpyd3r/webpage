@@ -51,3 +51,6 @@ addBlocks()
 
 // Add user
 const user = document.createElement('div')
+user.classList.add('user')
+user.style.left = curentPosition[0]
+grid.appendChild(user)
